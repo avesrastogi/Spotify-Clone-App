@@ -1,2 +1,2 @@
 # Spotify-Clone-App
-Build using React.js
+Built using React.js
