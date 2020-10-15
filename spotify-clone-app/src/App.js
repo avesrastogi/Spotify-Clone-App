@@ -12,7 +12,8 @@ function App() {
   const [{ user, token }, dispatch] = useDataLayerValue();
 
   // Run code based on a given condition
-  //will load when name component loads and changes
+  // will load when name component loads and changes
+
   useEffect(() => {
     const hash = getTokenFromUrl();
     // Do not want to show off the token
@@ -31,9 +32,24 @@ function App() {
       spotify.getMe().then((user) => {
         dispatch({
           type: "SET_USER",
-          user,
+          user: user,
         });
       });
+
+      spotify.getUserPlaylists().then((playlists) => {
+        dispatch({
+          type: "SET_PLAYLISTS",
+          playlists: playlists,
+        });
+      });
+
+      spotify.getPlaylists("37i9dQZEVXcEOshnJQ3SdF").then((response) =>
+        dispatch({
+          type: "SET_DISCOVER_WEEKLY",
+          discover_weekly: response,
+        })
+      );
+
     }
   }, []);
 
@@ -41,13 +57,7 @@ function App() {
   return (
     //BEM
     <div className="app">
-      {
-        token ? (
-          <Player />
-          ) : (
-          <Login />    
-        )
-      }
+      {token ? <Player spotify={spotify} /> : <Login />}
     </div>
   );
 }
