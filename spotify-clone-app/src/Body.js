@@ -8,7 +8,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 
 function Body({ spotify }) {
-  const [{ discover_weekly }, dispatch] = useStateValue();
+  const [{ discover_weekly, user }, dispatch] = useStateValue();
 
   const playPlaylist = (id) => {
     spotify
@@ -53,7 +53,7 @@ function Body({ spotify }) {
       <Header spotify={spotify} />
 
       <div className="body__info">
-        <img src={discover_weekly?.images[0].url} alt="" />
+        <img src={user?.images[0].url} alt="My pic" />
         <div className="body__infoText">
           <strong>PLAYLIST</strong>
           <h2>Discover Weekly</h2>
