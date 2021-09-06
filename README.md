@@ -1,5 +1,8 @@
 # Spotify-Clone-App
-Built using React.js
+* Built using React.js
+* User can login with their original spotify account or create new spotify account(using the Original spotify authentication),
+* User will be able to see their list playlists,
+* User will be able to see The discover weekly playlist with the list of songs which changes every week by Spotify.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
