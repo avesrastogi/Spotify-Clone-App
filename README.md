@@ -77,7 +77,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### View of the APP
 ![Screenshot from 2020-10-15 10-18-45](https://user-images.githubusercontent.com/55761079/96110744-e8ca0300-0efd-11eb-85a8-967a57d1d4e4.png)
-![Screenshot from 2021-10-03 20-12-23](https://user-images.githubusercontent.com/55761079/135758971-431f3aee-b059-4a76-9fd8-ccdf4cc4af45.png)
-![Screenshot from 2021-10-03 20-12-28](https://user-images.githubusercontent.com/55761079/135758985-04d6160c-acfe-4628-9169-feb54e3927aa.png)
-![Screenshot from 2021-10-03 20-12-37](https://user-images.githubusercontent.com/55761079/135758996-2de88a7b-40ad-4a31-872a-ab47530d9f3b.png)
+![Screenshot from 2021-10-03 20-15-22](https://user-images.githubusercontent.com/55761079/135759098-d42e7335-7248-45e2-9cdd-e1b10375335a.png)
+![Screenshot from 2021-10-03 20-15-41](https://user-images.githubusercontent.com/55761079/135759102-e6bdf7b2-09c3-4884-a015-edaad8837da7.png)
+![Screenshot from 2021-10-03 20-15-44](https://user-images.githubusercontent.com/55761079/135759138-bdf3245c-9e75-4219-9eec-a0c17a045769.png)
+![Screenshot from 2021-10-03 20-15-50](https://user-images.githubusercontent.com/55761079/135759143-3acbdf27-44b9-48dd-bc3b-11334815a1ff.png)
 )
