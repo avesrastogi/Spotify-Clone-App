@@ -6,6 +6,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Checkout the app at: [Spotify Clone App](https://spotify-clone-app-bf7cb.web.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
